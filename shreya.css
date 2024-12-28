@@ -1,0 +1,345 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and font styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav .logo h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f39c12;
+}
+
+/* Section Content Styling */
+.section-content {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-content img {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e2a47;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row-reverse; /* This moves the image to the right side */
+  align-items: center;
+  justify-content: center;
+}
+
+.home-img {
+  width: 300px; /* Make the image square */
+  height: 500px; /* Ensure the height and width are the same for square shape */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  margin-left: 30px; /* Adds spacing between text and image */
+}
+
+.intro-text h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.intro-text h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e67e22;
+}
+
+
+/* About Section */
+#about {
+  background-color: #1e2a57;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.about-img {
+width: 200px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Education Section */
+#education {
+  background-color: #1e3548;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+}
+
+.education-item p {
+  font-size: 1.1rem;
+}
+
+
+
+
+/* Projects Section */
+/*#projects {
+  background-color: #1f2d3f;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+#projects a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#projects a:hover {
+  color: #f39c12;
+}*/
+
+#projects {
+  background-color: #2f4f53;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.project {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #0d1d2c;
+  border-left: 5px solid #2980b9;
+}
+
+
+.project h3 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1.2em;
+  color: #cecbcb;
+  margin-bottom: 15px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+
+/* Skills Section */
+#skills {
+  background-color: #193a48;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/*Achievements section*/
+#achievements {
+  background-color: #405c57;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.achievement {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #142b41;
+  border-left: 5px solid #2980b9;
+}
+
+
+.achievement h3 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.achievement p {
+  font-size: 1.2em;
+  color: #cecbcb;
+  margin-bottom: 15px;
+}
+
+.achievement a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+
+/*Certificates section*/
+#certificates {
+  background-color: #354b54;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.certificate {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #192a39;
+  border-left: 5px solid #2980b9;
+}
+
+
+.certificate h3 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.certificate p {
+  font-size: 1.2em;
+  color: #c69595;
+  margin-bottom: 15px;
+}
+
+.certificate a {
+  text-decoration: none;
+  color: #ad6596;
+  font-weight: bold;
+}
+
+
+/* Contact Section */
+#contact {
+  background-color: #3e3939;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  color: #0acbe5;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #f39c12;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
